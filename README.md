@@ -6,7 +6,7 @@ Gemini Health App is a web application that leverages the Google GenerativeAI (G
 
 Before running the application, make sure you have the following prerequisites:
 
-- Python 3.x installed
+- Python 3.10 and above installed
 - Pip installed
 - Create a `.env` file in the project directory with the following content:
 
@@ -15,13 +15,14 @@ Before running the application, make sure you have the following prerequisites:
   ```
 
   Replace the placeholder `<your_api_key>` with your actual Google API key.
+  To create an API go to: "https://aistudio.google.com/app/apikey" 
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/Gemini_API_Image_to_Calorie_Calculator.git
+   git clone https://github.com/dushyantsinghpawar/Gemini_API_Image_to_Calorie_Calculator.git
    ```
 
 2. Navigate to the project directory:
@@ -50,7 +51,7 @@ Before running the application, make sure you have the following prerequisites:
 
 4. Upload an image, and click the "Tell me about the total calories in my food" button to receive information about the total calories and healthiness of the detected food items.
 
-5. Images folder contain images used for testing the app.
+5. test_image_<> are the images used for testing the app.
 
 ## Contributing
 
@@ -66,5 +67,3 @@ If you'd like to contribute to the project, please follow these steps:
 - Thanks to the Google GenerativeAI team for providing the powerful Gemini Pro API.
 
 ```
-
-Remember to replace placeholders such as `your-username` in the clone URL with your actual GitHub username. This README provides information on setting up the project, installing dependencies, using the application, and contributing to the repository.
