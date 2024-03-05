@@ -55,6 +55,4 @@ Before running the application, make sure you have the following prerequisites:
 
 4. Upload an image, and click the "Tell me about the total calories in my food" button to receive information about the total calories and healthiness of the detected food items.
 
-```
-
-This updated section includes instructions on setting up a virtual environment using conda before installing the project dependencies. Adjust the Python version in the `conda create` command based on your preference.
+image_test_<> are images used for testing the app.
