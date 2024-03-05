@@ -1,23 +1,18 @@
-# Gemini_API_Image_to_Calorie_Calculator
-
-Gemini Health App is a web application that leverages the Google GenerativeAI (Gemini Pro API) to process images of food, calculate total calories, and assess the healthiness of the detected food items.
-
 ## Prerequisites
 
 Before running the application, make sure you have the following prerequisites:
 
 - Python 3.10 and above installed
+- [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) installed
 - Pip installed
 - Create a `.env` file in the project directory with the following content:
 
   ```env
   GOOGLE_API_KEY="<your_api_key>"
-  ```
+  Replace the placeholder "your_api_key" with your actual Google API key.
+  To create your own API key visit : "https://aistudio.google.com/app/apikey"
 
-  Replace the placeholder `<your_api_key>` with your actual Google API key.
-  To create an API go to: "https://aistudio.google.com/app/apikey" 
-
-## Installation
+## Setup
 
 1. Clone the repository:
 
@@ -31,7 +26,16 @@ Before running the application, make sure you have the following prerequisites:
    cd Gemini_API_Image_to_Calorie_Calculator
    ```
 
-3. Install dependencies:
+3. Create and activate a virtual environment using conda:
+
+   ```bash
+   conda create --name gemini-health-app python=3.10
+   conda activate gemini-health-app
+   ```
+
+   Replace `3.10` with your desired Python version.
+
+4. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
@@ -51,19 +55,6 @@ Before running the application, make sure you have the following prerequisites:
 
 4. Upload an image, and click the "Tell me about the total calories in my food" button to receive information about the total calories and healthiness of the detected food items.
 
-5. test_image_<> are the images used for testing the app.
-
-## Contributing
-
-If you'd like to contribute to the project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature/bugfix.
-3. Make your changes.
-4. Create a pull request.
-
-## Acknowledgments
-
-- Thanks to the Google GenerativeAI team for providing the powerful Gemini Pro API.
-
 ```
+
+This updated section includes instructions on setting up a virtual environment using conda before installing the project dependencies. Adjust the Python version in the `conda create` command based on your preference.
